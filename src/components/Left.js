@@ -1,3 +1,6 @@
+// Create Left side of the webpage
+// need to create a heading with children lists
+
 import React, { Component } from "react";
 
 class Left extends Component {

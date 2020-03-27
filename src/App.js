@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Left from './components/Left'
+import Right from './components/Right'
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <div className="leftSide">
         <Left />
       </div>
-      <div className='rightSide'></div>
+      <div className='rightSide'>
+        <Right />
+      </div>
     </div>
   );
 }

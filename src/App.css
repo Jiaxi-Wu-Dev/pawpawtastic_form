@@ -1,7 +1,15 @@
-.containerDiv{
-  background-color: #42455E
+.App {
+  display: flex;
+  flex-direction: row;
 }
 
-.heading{
+.containerDiv {
+  background-color: #42455e;
+}
+
+.containerDivRight {
+  background-color: #fee7e6;
+}
+.heading {
   display: flex;
 }
