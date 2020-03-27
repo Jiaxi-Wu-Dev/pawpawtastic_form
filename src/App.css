@@ -1,14 +1,25 @@
 .App {
   display: flex;
   flex-direction: row;
+  border: red 1px solid;
+  height: 100%;
 }
 
 .containerDiv {
   background-color: #42455e;
+  border: rgb(154, 154, 255) 1px solid;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  height: 900px
 }
 
 .containerDivRight {
   background-color: #fee7e6;
+  border: green 1px solid;
+  height: 100%;
+  width: 100%;
+  display: flex;
 }
 .heading {
   display: flex;

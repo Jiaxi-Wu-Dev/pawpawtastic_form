@@ -18,7 +18,25 @@ class Right extends Component {
               value={this.state.value}
               onChange={this.handleChange}
             />
-            <input type="submit" value="Submit" onClick={this.handleSubmit} />
+          </label>
+          <label>
+            Breed:
+            <input
+              type="text"
+              value={this.state.value}
+              onChange={this.handleChange}
+            />
+          </label>
+          <label>
+            <img src="https://cdn0.iconfinder.com/data/icons/video-production-2-2/66/109-512.png" width="25px"/>Upload a Photo
+          </label>
+          <label>
+            Birthday
+            <input
+              type="text"
+              value={this.state.value}
+              onChange={this.handleChange}
+            />
           </label>
         </form>
       </div>

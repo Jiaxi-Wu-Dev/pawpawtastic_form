@@ -11,7 +11,8 @@ class Left extends Component {
         <div className="heading">
           <img
             src="https://pawsofcoronado.org/wp-content/uploads/2016/01/cropped-favicon.png"
-            width="70px"
+            width="25px"
+            height="25px"
           ></img>
           <h1>Pawtastic</h1>
         </div>
