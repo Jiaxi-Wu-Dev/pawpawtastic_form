@@ -9,8 +9,8 @@ class Right extends Component {
   render() {
     return (
       <div className="containerDivRight">
-        <h1>YAY, We love Dogs! Give us the basics about your pup.</h1>
         <form onSubmit>
+          <h1>YAY, We love Dogs! Give us the basics about your pup.</h1>
           <label>
             Name:
             <input
@@ -28,7 +28,7 @@ class Right extends Component {
             />
           </label>
           <label>
-            <img src="https://cdn0.iconfinder.com/data/icons/video-production-2-2/66/109-512.png" width="25px"/>Upload a Photo
+            <img src="https://cdn0.iconfinder.com/data/icons/video-production-2-2/66/109-512.png" width="25px" />Upload a Photo
           </label>
           <label>
             Birthday
@@ -38,6 +38,7 @@ class Right extends Component {
               onChange={this.handleChange}
             />
           </label>
+          
         </form>
       </div>
     );
