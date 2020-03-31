@@ -45,7 +45,6 @@
 .formContainerOneRight{
   display:flex;
   flex-direction: column;
-  border: 1px yellow solid;
 }
 
 .formContainerTwo{
