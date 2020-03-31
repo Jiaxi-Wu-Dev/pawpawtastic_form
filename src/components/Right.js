@@ -13,42 +13,62 @@ class Right extends Component {
           <h1>YAY, We love Dogs! Give us the basics about your pup.</h1>
 
           <div className="formContainer">
-          <div className="formContainerOne">
-          <div className="formContainerOneLeft">
-              <label>
-                Name:
+            <div className="formContainerOne">
+              <div className="formContainerOneLeft">
+                <label>
+                  Name:
             <input
-                  type="text"
-                  value={this.state.value}
-                  onChange={this.handleChange}
-                />
-              </label>
-              <label>
-                Breed:
+                    type="text"
+                    value={this.state.value}
+                    onChange={this.handleChange}
+                  />
+                </label>
+                <label>
+                  Breed:
             <input
-                  type="text"
-                  value={this.state.value}
-                  onChange={this.handleChange}
-                />
-              </label>
-            </div>
+                    type="text"
+                    value={this.state.value}
+                    onChange={this.handleChange}
+                  />
+                </label>
+              </div>
 
-            <div className="formContainerOneRight">
-              <label>
-                <img src="https://cdn0.iconfinder.com/data/icons/video-production-2-2/66/109-512.png" width="25px" />Upload a Photo
+              <div className="formContainerOneRight">
+                <label>
+                  <img src="https://cdn0.iconfinder.com/data/icons/video-production-2-2/66/109-512.png" width="25px" />Upload a Photo
           </label>
-              <label>
-                Birthday
+                <label>
+                  Birthday
             <input
-                  type="text"
-                  value={this.state.value}
-                  onChange={this.handleChange}
-                />
-              </label>
+                    type="text"
+                    value={this.state.value}
+                    onChange={this.handleChange}
+                  />
+                </label>
+              </div>
             </div>
-          </div>
             <div className="formContainerTwo">
-            <div>
+              <div className="formContainerTwoLeft">
+                <div>
+                  <label>
+                    Gender
+            <input
+                      type="text"
+                      value={this.state.value}
+                      onChange={this.handleChange}
+                    />
+                  </label>
+                  <label>
+                    Gender
+            <input
+                      type="text"
+                      value={this.state.value}
+                      onChange={this.handleChange}
+                    />
+                  </label>
+                </div>
+              </div>
+
               <label>
                 Gender
             <input
@@ -65,23 +85,6 @@ class Right extends Component {
                   onChange={this.handleChange}
                 />
               </label>
-              <label>
-                Gender
-            <input
-                  type="text"
-                  value={this.state.value}
-                  onChange={this.handleChange}
-                />
-              </label>
-              <label>
-                Gender
-            <input
-                  type="text"
-                  value={this.state.value}
-                  onChange={this.handleChange}
-                />
-              </label>
-            </div>
             </div>
           </div>
         </form>
