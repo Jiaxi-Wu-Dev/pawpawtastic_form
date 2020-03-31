@@ -68,7 +68,7 @@ class Right extends Component {
                   </label>
                 </div>
               </div>
-              <div className = "formContainerRight">
+              <div className = "formContainerTwoRight">
                 <label>
                   Gender
             <input

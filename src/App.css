@@ -65,5 +65,5 @@
 .formContainerTwoRight{
   display: flex;
   flex-direction: column;
-  border: 1px red solid;
+  border: 3px red solid;
 }
