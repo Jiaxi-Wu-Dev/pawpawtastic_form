@@ -34,7 +34,6 @@
 .formContainerOne{
   display: flex;
   flex-direction: row;
-  border: 3px orange solid;
   justify-content: space-evenly;
 }
 
