@@ -21,13 +21,14 @@
   width: 100%;
   display: flex;
 }
-
+.heading {
+  display: flex;
+}
 
 .formContainer{
   display:flex;
   flex-direction: column;
   justify-content: space-evenly;
-  border: 1px red solid;
 }
 
 .formContainerOne{
