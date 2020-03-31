@@ -24,3 +24,28 @@
 .heading {
   display: flex;
 }
+
+.formContainer{
+  display:flex;
+  justify-content: space-evenly;
+  border: 1px red solid;
+}
+
+.formContainerOne{
+  display: flex;
+  flex-direction: row;
+  border: 3px orange solid;
+  justify-content: space-evenly;
+}
+
+.formContainerOneLeft{
+  display:flex;
+  flex-direction: column;
+  border: 1px purple solid;
+}
+
+.formContainerOneRight{
+  display:flex;
+  flex-direction: column;
+  border: 1px yellow solid;
+}
