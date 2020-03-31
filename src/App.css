@@ -51,7 +51,7 @@
 }
 
 .formContainerTwo{
-  flex: flex;
+  display: flex;
   flex-direction: row;
   border: 1px blue solid;
 }
