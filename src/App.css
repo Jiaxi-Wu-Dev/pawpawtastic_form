@@ -6,6 +6,8 @@
 }
 
 .containerDiv {
+  display: flex;
+  flex-direction: column;
   background-color: #42455e;
   border: rgb(154, 154, 255) 1px solid;
   width: 100%;
