@@ -55,7 +55,6 @@
 .formContainerTwoLeft{
   display: flex;
   flex-direction: column;
-  border: 5px orchid solid;
 }
 
 .formContainerTwoRight{
