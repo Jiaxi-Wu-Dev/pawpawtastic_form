@@ -47,7 +47,7 @@ class Right extends Component {
               </label>
             </div>
           </div>
-            
+            <div className="formContainerTwo">
             <div>
               <label>
                 Gender
@@ -81,6 +81,7 @@ class Right extends Component {
                   onChange={this.handleChange}
                 />
               </label>
+            </div>
             </div>
           </div>
         </form>
