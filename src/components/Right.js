@@ -57,6 +57,30 @@ class Right extends Component {
                   onChange={this.handleChange}
                 />
               </label>
+              <label>
+                Gender
+            <input
+                  type="text"
+                  value={this.state.value}
+                  onChange={this.handleChange}
+                />
+              </label>
+              <label>
+                Gender
+            <input
+                  type="text"
+                  value={this.state.value}
+                  onChange={this.handleChange}
+                />
+              </label>
+              <label>
+                Gender
+            <input
+                  type="text"
+                  value={this.state.value}
+                  onChange={this.handleChange}
+                />
+              </label>
             </div>
           </div>
         </form>
