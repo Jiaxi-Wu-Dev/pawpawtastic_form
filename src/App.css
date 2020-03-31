@@ -57,5 +57,6 @@
 }
 
 .formContainerTwoLeft{
+  display: flex;
   border: 1px orchid solid;
 }
