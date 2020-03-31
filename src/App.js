@@ -10,7 +10,7 @@ function App() {
         <Left />
       </div>
       <div className='rightSide'>
-        <Righ />
+        <Right />
       </div>
     </div>
   );
