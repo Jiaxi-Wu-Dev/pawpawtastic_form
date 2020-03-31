@@ -11,34 +11,46 @@ class Right extends Component {
       <div className="containerDivRight">
         <form onSubmit>
           <h1>YAY, We love Dogs! Give us the basics about your pup.</h1>
-          <label>
-            Name:
+
+          <div>
+            <label>
+              Name:
             <input
-              type="text"
-              value={this.state.value}
-              onChange={this.handleChange}
-            />
-          </label>
-          <label>
-            Breed:
+                type="text"
+                value={this.state.value}
+                onChange={this.handleChange}
+              />
+            </label>
+            <label>
+              Breed:
             <input
-              type="text"
-              value={this.state.value}
-              onChange={this.handleChange}
-            />
+                type="text"
+                value={this.state.value}
+                onChange={this.handleChange}
+              />
+            </label>
+            <label>
+              <img src="https://cdn0.iconfinder.com/data/icons/video-production-2-2/66/109-512.png" width="25px" />Upload a Photo
           </label>
-          <label>
-            <img src="https://cdn0.iconfinder.com/data/icons/video-production-2-2/66/109-512.png" width="25px" />Upload a Photo
-          </label>
-          <label>
-            Birthday
+            <label>
+              Birthday
             <input
-              type="text"
-              value={this.state.value}
-              onChange={this.handleChange}
-            />
-          </label>
-          
+                type="text"
+                value={this.state.value}
+                onChange={this.handleChange}
+              />
+            </label>
+          </div>
+          <div>
+          <label>
+              Gender
+            <input
+                type="text"
+                value={this.state.value}
+                onChange={this.handleChange}
+              />
+            </label>
+          </div>
         </form>
       </div>
     );
