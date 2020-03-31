@@ -52,11 +52,18 @@
 
 .formContainerTwo{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border: 1px blue solid;
 }
 
 .formContainerTwoLeft{
   display: flex;
-  border: 1px orchid solid;
+  flex-direction: column;
+  border: 2px orchid solid;
+}
+
+.formContainerTwoRight{
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
 }
